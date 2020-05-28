@@ -2,7 +2,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
 
-import './Assets/custom.scss'
+import './Assets/styles.scss'
 import App from './Components/App'
 import ErrorBoundary from './Components/ErrorBoundary'
 import './fontawesome'
