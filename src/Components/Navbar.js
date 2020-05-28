@@ -21,20 +21,15 @@ const NavBar = () => {
     return () => window.removeEventListener('scroll', onScroll)
   }, [scrollTop])
 
-  const scroll = () => {
-    console.log(document)
-  }
-
   return (
     <Navbar fixed="top" expand="lg" id="mainNav" className={`${active ? 'navbar-shrink' : ''}`}>
-      <button onClick={() => scroll()}>scroll</button>
       <Container>
         <Navbar.Brand href="#home">Sua Empresa</Navbar.Brand>
         <Navbar.Toggle aria-controls="links-navbar" />
         <Navbar.Collapse className="justify-content-end" id="links-navbar">
           <Nav>
             <Nav.Item>
-              <Nav.Link className="text-white text-upper nav-item" href="#home">SERVICES</Nav.Link>
+              <Nav.Link className="text-white text-upper nav-item" href="#services">SERVICES</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link className="text-white text-upper nav-item" href="#link">PORTFOLIO</Nav.Link>

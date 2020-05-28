@@ -1,15 +1,16 @@
 import React from 'react'
 import Header from './Header'
-import IconsSection from './IconsSection'
-import Showcase from './Showcase'
+import Services from './Services'
+import Portfolio from './Portfolio'
 import Testimonials from './Testimonials'
 import CallToAction from './CallToAction'
+
 
 const FrontPage = () => (
   <>
     <Header />
-    <IconsSection />
-    <Showcase />
+    <Services />
+    <Portfolio />
     <Testimonials />
     <CallToAction />
   </>

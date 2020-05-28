@@ -13,7 +13,7 @@ const Services = () => (
         <Col md={4}>
           <div className="mx-auto mb-5 mb-lg-0 mb-lg-3 text-center">
             <div className="fa-stack fa-4x">
-              <FontAwesomeIcon icon={['fas', 'circle']} className="fa-stack-2x txt-primary" />
+              <FontAwesomeIcon icon={['fas', 'circle']} className="fa-stack-2x text-primary" />
               <FontAwesomeIcon icon={['fas', 'shopping-cart']} className="fa-stack-1x fa-inverse" />
             </div>
             <h4 className="my-3">E-Commerce</h4>
@@ -23,7 +23,7 @@ const Services = () => (
         <Col md={4}>
           <div className="mx-auto mb-5 mb-lg-0 mb-lg-3 text-center">
             <div className="fa-stack fa-4x">
-              <FontAwesomeIcon icon={['fas', 'circle']} className="fa-stack-2x txt-primary" />
+              <FontAwesomeIcon icon={['fas', 'circle']} className="fa-stack-2x text-primary" />
               <FontAwesomeIcon icon={['fas', 'laptop']} className="fa-stack-1x fa-inverse" />
             </div>
             <h4 className="my-3">Página Responsiva</h4>
@@ -33,7 +33,7 @@ const Services = () => (
         <Col md={4}>
           <div className="mx-auto mb-5 mb-lg-0 mb-lg-3 text-center">
             <div className="fa-stack fa-4x">
-              <FontAwesomeIcon icon={['fas', 'circle']} className="fa-stack-2x txt-primary" />
+              <FontAwesomeIcon icon={['fas', 'circle']} className="fa-stack-2x text-primary" />
               <FontAwesomeIcon icon={['fas', 'lock']} className="fa-stack-1x fa-inverse" />
             </div>
             <h4 className="my-3">Segurança Digital</h4>
