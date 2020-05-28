@@ -66,7 +66,7 @@ const Portfolio = () => {
           </Col>
           <Col lg={4} sm={6} className="mb-4">
             <div className="portfolio-item">
-              <a onClick={() => toggleModal(modals.modal3, 'modal3')} className="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <a onClick={() => toggleModal(modals.modal3, 'modal3')} className="portfolio-link" data-toggle="modal" href="#portfolioModal3">
                 <div className="portfolio-hover">
                   <div className="portfolio-hover-content">
                     <FontAwesomeIcon icon={['fas', 'plus']} size="3x" />
@@ -82,7 +82,7 @@ const Portfolio = () => {
           </Col>
           <Col lg={4} sm={6} className="mb-4">
             <div className="portfolio-item">
-              <a onClick={() => toggleModal(modals.modal4, 'modal4')} className="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <a onClick={() => toggleModal(modals.modal4, 'modal4')} className="portfolio-link" data-toggle="modal" href="#portfolioModal4">
                 <div className="portfolio-hover">
                   <div className="portfolio-hover-content">
                     <FontAwesomeIcon icon={['fas', 'plus']} size="3x" />
@@ -98,7 +98,7 @@ const Portfolio = () => {
           </Col>
           <Col lg={4} sm={6} className="mb-4">
             <div className="portfolio-item">
-              <a onClick={() => toggleModal(modals.modal5, 'modal5')} className="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <a onClick={() => toggleModal(modals.modal5, 'modal5')} className="portfolio-link" data-toggle="modal" href="#portfolioModal5">
                 <div className="portfolio-hover">
                   <div className="portfolio-hover-content">
                     <FontAwesomeIcon icon={['fas', 'plus']} size="3x" />
@@ -114,7 +114,7 @@ const Portfolio = () => {
           </Col>
           <Col lg={4} sm={6} className="mb-4">
             <div className="portfolio-item">
-              <a onClick={() => toggleModal(modals.modal6, 'modal6')} className="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+              <a onClick={() => toggleModal(modals.modal6, 'modal6')} className="portfolio-link" data-toggle="modal" href="#portfolioModal6">
                 <div className="portfolio-hover">
                   <div className="portfolio-hover-content">
                     <FontAwesomeIcon icon={['fas', 'plus']} size="3x" />
