@@ -8,7 +8,7 @@ import ErrorBoundary from './Components/ErrorBoundary'
 import './fontawesome'
 
 const refresh = () => render(
-  <BrowserRouter>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <ErrorBoundary>
       <App />
     </ErrorBoundary>
