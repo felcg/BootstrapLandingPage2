@@ -5,47 +5,27 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Footer = () => (
-  <div className="footer bg-light">
+  <div className="footer py-4">
     <Container>
-      <Row>
-        <Col lg={6} className="h-100 text-center text-lg-left my-auto">
-          <ul className="list-inline mb-2">
-            <li className="list-inline-item">
-              <a href="#">Sobre nós</a>
-            </li>
-            <li className="list-inline-item">⋅</li>
-            <li className="list-inline-item">
-              <a href="#">Contato</a>
-            </li>
-            <li className="list-inline-item">⋅</li>
-            <li className="list-inline-item">
-              <a href="#">Termos de Uso</a>
-            </li>
-            <li className="list-inline-item">⋅</li>
-            <li className="list-inline-item">
-              <a href="#">Política de Privacidade</a>
-            </li>
-          </ul>
-          <p className="text-muted small mb-4 mb-lg-0">© Your Website 2020. Todos Direitos Reservados.</p>
+      <Row className="align-items-center">
+        <Col lg={4} className="text-lg-left">
+          Seu site © Todos Direitos Reservados.
         </Col>
-        <Col lg={6} className="h-100 text-center text-lg-right my-auto">
-          <ul className="list-inline mb-0">
-            <li className="list-inline-item mr-3">
-              <a href="#">
-                <FontAwesomeIcon icon={['fab', 'facebook']} size="2x" />
-              </a>
-            </li>
-            <li className="list-inline-item mr-3">
-              <a href="#">
-                <FontAwesomeIcon icon={['fab', 'twitter']} size="2x" />
-              </a>
-            </li>
-            <li className="list-inline-item">
-              <a href="#">
-                <FontAwesomeIcon icon={['fab', 'instagram']} size="2x" />
-              </a>
-            </li>
-          </ul>
+        <Col lg={4} className="my-3 my-lg-0">
+          <a className="btn btn-dark btn-social mx-2" href="#!">
+            <FontAwesomeIcon icon={['fab', 'twitter']} />
+          </a>
+
+          <a className="btn btn-dark btn-social mx-2" href="#!">
+            <FontAwesomeIcon icon={['fab', 'facebook-f']} />
+          </a>
+
+          <a className="btn btn-dark btn-social mx-2" href="#!">
+            <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
+          </a>
+        </Col>
+        <Col lg={4} className="text-lg-right">
+          <a className="mr-3" href="#!">Privacy Policy</a><a href="#!">Terms of Use</a>
         </Col>
       </Row>
     </Container>
