@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/BootstrapLandingPage2/static/css/main.c67878b5.chunk.css",
+    "main.js": "/BootstrapLandingPage2/static/js/main.60a59dfa.chunk.js",
+    "main.js.map": "/BootstrapLandingPage2/static/js/main.60a59dfa.chunk.js.map",
+    "runtime-main.js": "/BootstrapLandingPage2/static/js/runtime-main.be8b45e9.js",
+    "runtime-main.js.map": "/BootstrapLandingPage2/static/js/runtime-main.be8b45e9.js.map",
+    "static/js/2.32414cf7.chunk.js": "/BootstrapLandingPage2/static/js/2.32414cf7.chunk.js",
+    "static/js/2.32414cf7.chunk.js.map": "/BootstrapLandingPage2/static/js/2.32414cf7.chunk.js.map",
+    "index.html": "/BootstrapLandingPage2/index.html",
+    "precache-manifest.60e22732e556919754e03605719b68e9.js": "/BootstrapLandingPage2/precache-manifest.60e22732e556919754e03605719b68e9.js",
+    "service-worker.js": "/BootstrapLandingPage2/service-worker.js",
+    "static/css/main.c67878b5.chunk.css.map": "/BootstrapLandingPage2/static/css/main.c67878b5.chunk.css.map",
+    "static/js/2.32414cf7.chunk.js.LICENSE.txt": "/BootstrapLandingPage2/static/js/2.32414cf7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.be8b45e9.js",
+    "static/js/2.32414cf7.chunk.js",
+    "static/css/main.c67878b5.chunk.css",
+    "static/js/main.60a59dfa.chunk.js"
+  ]
+}
