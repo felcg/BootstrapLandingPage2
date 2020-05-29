@@ -29,19 +29,19 @@ const NavBar = () => {
         <Navbar.Collapse className="justify-content-end" id="links-navbar">
           <Nav>
             <Nav.Item>
-              <Nav.Link className="text-white text-upper nav-item" href="#services">SERVICES</Nav.Link>
+              <Nav.Link className="text-white text-upper nav-item" href="#services">SERVIÇOS</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="text-white text-upper nav-item" href="#link">PORTFOLIO</Nav.Link>
+              <Nav.Link className="text-white text-upper nav-item" href="#portfolio">PORTFOLIO</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="text-white text-upper nav-item" href="#link">ABOUT</Nav.Link>
+              <Nav.Link className="text-white text-upper nav-item" href="#about">SOBRE NÓS</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="text-white text-upper nav-item" href="#link">TEAM</Nav.Link>
+              <Nav.Link className="text-white text-upper nav-item" href="#team">NOSSO TIME</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link className="text-white text-upper nav-item" href="#link">CONTACT</Nav.Link>
+              <Nav.Link className="text-white text-upper nav-item" href="#contact">FALE CONOSCO</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
