@@ -2,8 +2,10 @@ import React from 'react'
 import Header from './Header'
 import Services from './Services'
 import Portfolio from './Portfolio'
-import Testimonials from './Testimonials'
-import CallToAction from './CallToAction'
+import Team from './Team'
+import About from './About'
+import Clients from './Clients'
+import Contact from './Contact'
 
 
 const FrontPage = () => (
@@ -11,8 +13,10 @@ const FrontPage = () => (
     <Header />
     <Services />
     <Portfolio />
-    <Testimonials />
-    <CallToAction />
+    <About />
+    <Team />
+    <Clients />
+    <Contact />
   </>
 )
 
