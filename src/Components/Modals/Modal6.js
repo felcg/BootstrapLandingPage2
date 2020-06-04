@@ -29,7 +29,7 @@ const Modal1 = ({ visible, toggleModal }) => (
             </ul>
             <Button variant="primary" onClick={() => toggleModal()}>
               <FontAwesomeIcon icon={['fas', 'times']} />
-              Save Changes
+              Fechar
             </Button>
           </Modal.Body>
         </Col>
