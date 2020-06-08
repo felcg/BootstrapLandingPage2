@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "69bdd53026972a12c6956b756562582a",
+    "revision": "532382442e6bc0f4284802983092b8a3",
     "url": "/BootstrapLandingPage2/index.html"
   },
   {
-    "revision": "9dda4a1aa1dd96a856c0",
+    "revision": "e2b61b95b0e29d78a4d7",
     "url": "/BootstrapLandingPage2/static/css/main.09da6e14.chunk.css"
   },
   {
-    "revision": "0a3cff6e68042fce74e0",
-    "url": "/BootstrapLandingPage2/static/js/2.32414cf7.chunk.js"
+    "revision": "ddf241a213b94ccd8ecc",
+    "url": "/BootstrapLandingPage2/static/js/2.79908ca7.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/BootstrapLandingPage2/static/js/2.32414cf7.chunk.js.LICENSE.txt"
+    "url": "/BootstrapLandingPage2/static/js/2.79908ca7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9dda4a1aa1dd96a856c0",
-    "url": "/BootstrapLandingPage2/static/js/main.7cdbd05e.chunk.js"
+    "revision": "e2b61b95b0e29d78a4d7",
+    "url": "/BootstrapLandingPage2/static/js/main.509d3528.chunk.js"
   },
   {
     "revision": "1b0cb7073e04fa1ae850",
